@@ -312,6 +312,11 @@ body{
     cursor: pointer; 
 }
 
+.Proyectos {
+    display: flex;
+    flex-wrap: column;
+}
+
 /** Nuestros proyectos **/
 
 
