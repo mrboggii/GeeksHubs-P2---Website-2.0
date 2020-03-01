@@ -185,7 +185,7 @@ body{
 
 /** IMG Header **/
 
-/** Acerca de Nosotros **/
+/** Acerca de Mi **/
 .acerca-de{
     width: 100%;
     margin-top: 120px;
@@ -248,9 +248,9 @@ body{
     background: var(--blue);
 }
 
-/** Acerca de Nosotros **/
+/** Acerca de Mi **/
 
-/** Nuestros proyectos **/
+/** Mis proyectos **/
 .our-projects{
     position: relative;
     width: 100%;
@@ -317,11 +317,11 @@ body{
     flex-wrap: column;
 }
 
-/** Nuestros proyectos **/
+/** Mis proyectos **/
 
 
 
-/** Testimonios **/
+
 
 /** Footer **/
 .footer{
@@ -513,7 +513,7 @@ body{
         font-size: 20px;
     } 
 
-    /** Acerca de nosotros **/
+    /** Acerca de mi **/
     .acerca-de .info-container .about-gallery{
         flex-direction: column;
     }
@@ -521,7 +521,7 @@ body{
         width: 100%;
     }
 
-    /** Nuestros proyectos **/
+    /** Mis proyectos **/
     .our-projects .container-project .project-img img{
         width: 80%;
         margin-bottom: 30px;
