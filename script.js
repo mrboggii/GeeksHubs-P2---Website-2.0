@@ -99,4 +99,24 @@ verAbajo.addEventListener('click', () => {
     document.body.scrollTop = 600;
     document.documentElement.scrollTop = 600;
 });
-
+  
+  var options = {
+    enableHighAccuracy: true,
+    timeout: 5000,
+    maximumAge: 0
+  };
+  
+  function success(pos) {
+    var crd = pos.coords;
+  
+    console.log('Tu posición actual es: ');
+    console.log('Latitud: ' + crd.latitude);
+    console.log('Longitud: ' + crd.longitude);
+    console.log('Mas o menos ' + crd.accuracy + ' metros.');
+  };
+  
+  function error(err) {
+    console.warn('ERROR(' + err.code + '): ' + err.message);
+  };
+  
+  navigator.geolocation.getCurrentPosition(success, error, options);
