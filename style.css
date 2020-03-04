@@ -4,19 +4,16 @@
     --blue:#08d9d6;
     --white:#eaeaea;
 }
-
 *{
     margin:0;
     padding: 0;
     box-sizing: border-box;
 }
-
 body{
     background: #fff;
     overflow-x: hidden;
     font-family: 'Raleway', sans-serif;
 }
-
 /** Go top **/
 .go-top{
     position:fixed;
@@ -45,7 +42,6 @@ body{
     font-size: 30px;
     color:var(--black);
 }
-
 /** Skew **/
 .skew-abajo{
     position: absolute;
@@ -64,7 +60,6 @@ body{
     border-color:#fff transparent transparent transparent;
     z-index: 10;
 }
-
 /** Menu de Navegacion **/
 #header{
     position: relative;
@@ -77,7 +72,6 @@ body{
     width: 100%;
     height: 60px;
     background: #fff;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -118,13 +112,10 @@ body{
     background: var(--red);
     color: #fff;
 }
-
 .btn-menu > .fa-bars{
     display: none;
 }
-
 /** Menu de Navegacion **/
-
 /** IMG Header **/
 .img-header{
     position: relative;
@@ -182,9 +173,7 @@ body{
 .img-header .welcome > button:hover{
     background: var(--blue);
 }
-
 /** IMG Header **/
-
 /** Acerca de Mi **/
 .acerca-de{
     width: 100%;
@@ -247,9 +236,7 @@ body{
 .acerca-de .info-container .about-more button:hover{
     background: var(--blue);
 }
-
 /** Acerca de Mi **/
-
 /** Mis proyectos **/
 .our-projects{
     position: relative;
@@ -311,18 +298,11 @@ body{
     border-radius: 10px;
     cursor: pointer; 
 }
-
 .Proyectos {
     display: flex;
     flex-wrap: column;
 }
-
 /** Mis proyectos **/
-
-
-
-
-
 /** Footer **/
 .footer{
     position: relative;
@@ -448,12 +428,7 @@ body{
     color:#fff;
     font-size: 20px;
 }
-
-/** Footer **/
-
-
 /** Media Query **/
-
 @media only screen and (max-width:900px){
     .btn-menu > .fa-bars{
         display: block;
@@ -499,11 +474,8 @@ body{
         background:none;
         color:var(--red);
     }
-
 }
-
 @media only screen and (max-width: 773px) {
-   
     /** IMG Header**/
     .img-header .welcome h1{
         font-size: 40px;
@@ -512,7 +484,6 @@ body{
         width: 130px;
         font-size: 20px;
     } 
-
     /** Acerca de mi **/
     .acerca-de .info-container .about-gallery{
         flex-direction: column;
@@ -520,17 +491,13 @@ body{
     .acerca-de .info-container .about-gallery img{
         width: 100%;
     }
-
     /** Mis proyectos **/
     .our-projects .container-project .project-img img{
         width: 80%;
         margin-bottom: 30px;
     }
-
 }
-
 @media only screen and (max-width: 590px) {
-   
     /** IMG Header **/
 .img-header .welcome h1{
     font-size:30px;
@@ -546,7 +513,6 @@ body{
     font-size: 17px;
 }
 }
-
 @media only screen and (max-width: 890px) {
   .testimonios .box-testimonios .card-testimonio .card-img img{
       width: 200px;
@@ -563,8 +529,42 @@ body{
       line-height: 35px;
   }
 }
-
 @media only screen and (max-width:900px){
     .footer .formulario-content{width: 85%; padding:20px;}
     .footer .formulario-content #formulario input{width: 100%;}
     .footer .formulario-content #formulario textarea{width: 100%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+   
+
+

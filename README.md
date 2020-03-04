@@ -15,3 +15,4 @@ Todo esto en un diseño que a mi me resulta estiloso, sencillo y profesional.
 ### JavaScript
 
 Para este proyecto el mayor reto era implementar alguna funcionalidad con JavaScript, lo que he conseguido ha sido una animación en la barra de navegación la cual se ocultará o mostrará según estemos posicionados. Además de un botón herramienta que nos ayudará a volver 'arriba' cuando lleguemos al final de nuestra pagina.
+
