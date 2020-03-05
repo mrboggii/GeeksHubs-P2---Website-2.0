@@ -16,7 +16,7 @@ btnMenu.addEventListener('click', () => {
        activador = true;
       }
     });
-    // Intercalar clase Active
+ // Intercalar clase Active
     let enlaces = document.querySelectorAll('.lists li a');
     enlaces.forEach( (element) => {
       element.addEventListener('click', (event) => {
