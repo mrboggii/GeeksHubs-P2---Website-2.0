@@ -305,11 +305,11 @@ body{
 /** Mis proyectos **/
 /** Footer **/
 .footer{
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
   
-    background-color: white;
+    background: url(img/header.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
