@@ -2,7 +2,7 @@ let btnMenu = document.querySelector('.btn-menu');
 let menu = document.querySelector('.list-container');
 let containerMenu = document.querySelector('.menu');
 let activador = true;
-// Menu de navegacion
+    // Menu de navegacion
 btnMenu.addEventListener('click', () => {
   document.querySelector('.btn-menu i').classList.toggle('fa-times');
   if(activador){
@@ -16,7 +16,7 @@ btnMenu.addEventListener('click', () => {
        activador = true;
       }
     });
- // Intercalar clase Active
+    // Intercalar clase Active
     let enlaces = document.querySelectorAll('.lists li a');
     enlaces.forEach( (element) => {
       element.addEventListener('click', (event) => {
